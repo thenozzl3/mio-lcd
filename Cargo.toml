@@ -1,0 +1,14 @@
+[package]
+name = "mio_lcd"
+version = "0.1.0"
+authors = ["thenozzle"]
+edition = "2018"
+
+[dependencies]
+mio-serial = "0.5"
+mio = "0.6"
+serialport = "*"
+bytes = "0.4.3"
+crossbeam = "*"
+crossbeam-utils = "0.8.14"
+clap = { version = "3.2.8", features = ["derive"] }
